@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Style+Script&display=swap&family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/responsive.css">
+    <link rel="stylesheet" href="Styles/createAccount.css">
+
+    <title>Create Account</title>
+
+    <style>
+        .login__link {
+            margin-top: 10px;
+            margin-bottom: -20px;
+        }
+        
+        .login__link a {
+            text-decoration: none;
+            color: gray;
+            font-family: 'Baloo 2', cursive;
+            font-size: 80%;
+            padding: 0px 8px;
+        }
+        
+        .login__link a:hover {
+            color: black;
+            background-color: rgb(190, 187, 187);
+            padding: 0px 8px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 
+    <section id="section1">
+        <nav id="navbar__top" class="createAccount__navbar">
+            <div class="navbar1__main__div">
+                <div class="navbar1__heading__div">
+                    <h2 class="navbar1__heading">Register fast to avail <span style=" font-size: larger;">Special
+                            Offers</span>!!
+                    </h2>
+                </div>
+                <div class="navbar1__list__div">
+                    <ul class="navbar1__ul">
+                        <li class="navbar1__li">
+                            <span class="first__child">
+                                <a href="../index.html" class="createAccount__home__link"> Home</a>
+                            </span>
+                        </li>
+                        <li class="navbar1__li"><a href="#">Create Account</a></li>
+                        <li class="navbar1__li"><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section> -->
+
+    <section class="section" id="background__area">
+        <div class="main__back__div">
+            <div class="div__one"></div>
+            <div class="div__two"></div>
+        </div>
+    </section>
+
+    <section class="section" id="create__page">
+        <div class="main__create__area">
+            <div class="div__one__account">
+                <div class="signup__content__background">
+                    <div class="signup-heading">
+                        <h2>Create an Account</h2>
+                    </div>
+                    <form name="myform" action="signup.php" method="post" onsubmit="return validateform()">
+                        <div class="form-group">
+                            <label for="name">Username:</label><br>
+                            <input type="text" name="name" id="name" placeholder="Enter your Name"><span id="nameerror"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label><br>
+                            <input type="email" name="email" id="email" placeholder="Enter your Email"><span id="emailerror"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label><br>
+                            <input type="password" name="pass" id="pass" placeholder="Enter your password"><span id="passerror"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Re-Enter Password:</label><br>
+                            <input type="password" name="pass1" id="pass1" placeholder="Enter your password again"><span id="passerror1"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Country:</label><br>
+                            <input type="text" name="country" id="country" placeholder="Enter your Country"><span id="countryerror"></span>
+                        </div>
+                        <div class="btn">
+                            <input type="submit" name="submit" class="signup__confirm" />
+                            <button class="signup__cancel"><a href="login.html">Cancel</a></button>
+                        </div>
+                        <div class="form-group">
+                            <p class="login__link"> <a href="login.html">Login Account</a> </p>
+                        </div>
+                </div>
+            </div>
+            <div class="div__two__account">
+                <div class="section__two__content">
+                    <h2>
+                        Tonpro Online Shoe Center
+                    </h2>
+                    <p>We provide our customers with a wide variety of shoes from different categories. Formals, Sports and Casuals are our best sections. <br><br> Have a look into our <a href="#"> Sections</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+</body>
+
+</html>
